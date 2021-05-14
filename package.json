@@ -1,0 +1,16 @@
+{
+  "name": "ext",
+  "version": "1.0.0",
+  "description": "pw",
+  "main": "content.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "console.log(\"running\");"
+  },
+  "author": "Omar Babu",
+  "license": "ISC"
+}

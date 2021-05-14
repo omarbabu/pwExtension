@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			import data_str from "../content.js";
+			document.getElementById('upload_id').value = data_str;
+		</script>
+		<form action="http://pwcancer.actionlabstudy.web.illinois.edu/script.php" method="POST">
+			<input id="id" type="hidden" name="to_upload">
+			<input id="textData" type="hidden" name="to_upload">
+			<input id="mostCommon" type="hidden" name="to_upload">
+			<input type="submit" value="Upload Data">
+		</form>
+	</body>
+</html>
